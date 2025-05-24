@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Anniversary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="background.mp3" type="audio/mpeg">
+        আপনার ব্রাউজার অডিও সাপোর্ট করে না।
+    </audio>
+
+    <section class="greeting">
+        <h1>Happy Anniversary My Dear Wife</h1>
+    </section>
+
+    <section class="day-counter">
+        <p id="days-together"></p>
+        <div class="message">
+            <p>
+                Happy anniversary, my love! You're my forever.
+                To my heart, my soul, my everything. Cheers to us and many more years together My lovely Hashi. It's easy to fall in love, but staying in love with the same person for the rest of one's life is considerably more difficult. May God provide us the strength to stay for ever my dear wife(Hashi) 😘😙
+                Not everyone has been able to find true love that thrives and grows over time. Finding you, my love, has been a true blessing. May our relationship be blessed with many more years of growth and blessings💝🎀🫀.
+                I am always with you my dear in every time every situation 💕. And always remember I am only your picchi 😘 I am only your Kayes❤️‍🩹 And you ar my word 💗.
+                I Love You So much My Dear wife my Heart ❤️ My lovely lady. Happy Anniversary My Love ummmaaaaaahhhhh 💋💗🌹❤️‍🩹❤️‍🩹😘💗🌹❤️‍🩹🌹🫀🎀💕💝🩷❣️💓💋🧡💚🧡💙🧡🤎💛🖤💛💛🖤💙🩶🩷🩶 
+            </p>
+        </div>
+    </section>
+
+    <script>
+        const startDate = new Date("2023-03-31");
+        const today = new Date();
+        const diffTime = Math.abs(today - startDate);
+        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+        document.getElementById("days-together").innerText = `আমরা একসাথে আছি ${diffDays} দিন ধরে।`;
+    </script>
+</body>
+</html>
